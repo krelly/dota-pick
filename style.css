@@ -21,17 +21,23 @@ h1{
 	text-align:center;
 	text-shadow: 0 0 200px white;
 }
-#enemies{
+#enemy{
+	float: left
+}
+#ally{
+	float: right;
+}
+#enemies,#alies{
 	min-width:100%;
 	display: inline-block;
 	background: #252627;
 	padding: 10px 5px
 }
-#enemies > div {
+#enemies,#alies > div {
 	float: left;
 	width: 85px;
 	height: 85px;
-	margin: 10px 50px;
+	margin: 10px 40px;
 	-webkit-box-shadow: inset 0px 0px 18px 6px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 0px 18px 6px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 0px 18px 6px rgba(0,0,0,0.75);
