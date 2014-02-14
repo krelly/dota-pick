@@ -13,6 +13,7 @@ body{
 	black 15px 15px 5px;
 	*/
 }
+
 h1{
 	color:white;
 	font:4em Georgia;
@@ -24,6 +25,19 @@ h2 {
 	color: white;
 	font-family: Georgia
 }
+#heroes img{
+	height: 54px;
+	border-radius: 3px;
+	border: 2px solid #53040D;
+}
+#heroes img:hover {
+	-webkit-box-shadow: 0px 0px 42px 2px rgba(230,230,230,0.66);
+-moz-box-shadow: 0px 0px 42px 2px rgba(230,230,230,0.66);
+box-shadow: 0px 0px 42px 2px rgba(230,230,230,0.66);
+}
+#heroes td {
+	padding: 7px;
+}	
 #enemies,#alies
 {
 	text-align: center;
