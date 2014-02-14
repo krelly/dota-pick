@@ -2,9 +2,11 @@
 	margin: 0;
 	box-sizing:border-box;
 }
+#fill{
+	height: 54px;
+}
 body{
-	background:url(ax.gif) no-repeat;
-	background-size:cover;
+	background:url(noisy_net.png) repeat;
 	height:100%;
 	width: 100%;
 	/*color: rgba(0,0,0,0);
@@ -14,24 +16,47 @@ body{
 	black 15px 15px 5px;
 	*/
 }
+h1,h2{
+	color: white;
+	font-family: Georgia
+}
 h1{
-	color:white;
-	font:4em Georgia;
+	font-size:4em;
 	font-weight:bold;
 	text-align:center;
 	text-shadow: 0 0 200px white;
 }
-#enemies{
-	min-width:100%;
-	display: inline-block;
-	background: #252627;
-	padding: 10px 5px
+h2 {
+	
 }
-#enemies > div {
-	float: left;
-	width: 85px;
-	height: 85px;
-	margin: 10px 50px;
+#heroes,#pick{text-align: center;}
+#pick > div,#heroes > table{display:inline-block;}
+
+#heroes > table{
+	margin-left: 20px;
+}
+#heroes img{
+	height: 54px;
+	border-radius: 3px;
+	border: 2px solid #53040D;
+}
+#heroes img:hover {
+	-webkit-box-shadow: 0px 0px 42px 2px rgba(230,230,230,0.66);
+	-moz-box-shadow: 0px 0px 42px 2px rgba(230,230,230,0.66);
+	box-shadow: 0px 0px 42px 2px rgba(230,230,230,0.66);
+}
+#heroes td {
+	padding: 7px;
+}	
+#pick {
+    background: #232425;
+    padding: 10px 5px;
+}
+#pick > div
+{ 
+    width: 127px;
+	height: 71px;
+	margin: 10px 40px;
 	-webkit-box-shadow: inset 0px 0px 18px 6px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 0px 18px 6px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 0px 18px 6px rgba(0,0,0,0.75);
