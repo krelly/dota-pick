@@ -3,8 +3,7 @@
 	box-sizing:border-box;
 }
 body{
-	background:url(ax.gif) no-repeat;
-	background-size:cover;
+	background:url(noisy_net.png) repeat;
 	height:100%;
 	width: 100%;
 	/*color: rgba(0,0,0,0);
@@ -21,22 +20,27 @@ h1{
 	text-align:center;
 	text-shadow: 0 0 200px white;
 }
+h2 {
+	color: white;
+	font-family: Georgia
+}
 #enemy{
 	float: left
 }
 #ally{
 	float: right;
 }
-#enemies,#alies{
+.pick{
+	text-align:center;
 	min-width:100%;
 	display: inline-block;
-	background: #252627;
+	background: #232425;
 	padding: 10px 5px
 }
-#enemies,#alies > div {
+.pick > div {
 	float: left;
-	width: 85px;
-	height: 85px;
+	width: 127px;
+	height: 71px;
 	margin: 10px 40px;
 	-webkit-box-shadow: inset 0px 0px 18px 6px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 0px 18px 6px rgba(0,0,0,0.75);
