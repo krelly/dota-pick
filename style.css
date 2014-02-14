@@ -24,22 +24,17 @@ h2 {
 	color: white;
 	font-family: Georgia
 }
-#enemy{
-	float: left
+#enemies,#alies
+{
+	text-align: center;
+	width:100%;
+    background: #232425;
+    padding: 10px 5px;
 }
-#ally{
-	float: right;
-}
-.pick{
-	text-align:center;
-	min-width:100%;
-	display: inline-block;
-	background: #232425;
-	padding: 10px 5px
-}
-.pick > div {
-	float: left;
-	width: 127px;
+#enemies > div,#alies > div
+{
+    display:inline-block;    
+    width: 127px;
 	height: 71px;
 	margin: 10px 40px;
 	-webkit-box-shadow: inset 0px 0px 18px 6px rgba(0,0,0,0.75);
